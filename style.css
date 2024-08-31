@@ -1,0 +1,79 @@
+/*Estilo Geral*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --cor1: #c4a47c;
+    --cor2: #fff;
+    --cor3: #000000;
+    --cor4: #604829;
+    --cor5: #666;
+    --cor6: #ACACAC;
+    --font-text: "Lato", sans-serif;
+    --font-fraunces: "Fraunces", serif;
+    --font-osw: "Oswald", sans-serif;
+}
+
+/*TOPO*/
+
+.topo {
+    width: 100%;
+    background-color: var(--cor4);
+    position: fixed;
+}
+
+
+.logo img {
+    width: 100px;
+    margin-left: 15%;
+}
+
+.menu {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+.menu a {
+    color: var(--cor1);
+    font-family: var(--font-osw);
+    margin: 10px 10px;
+    text-shadow: 3px 2px 1px black;
+    font-size: 18px;
+}
+
+
+
+
+/*Banner*/
+ 
+.banner {
+    background-image: url('assets/parallax-imagem1.png');
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner h1 {
+    font-family: var(--font-fraunces);
+    font-weight: lighter;
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    bottom: 45%;
+    left: 0;
+    right: 0;
+}
+
+/* Informações */
+
+.informacoes {
+    
+}
